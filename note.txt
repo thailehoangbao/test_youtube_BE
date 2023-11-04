@@ -1,0 +1,7 @@
+WORKDIR /usr/test {tạo file bỏ vao thư mực}
+
+COPY package*.json . {dời thư mực package vào container máy ảo}
+
+RUN yarn install
+
+Bước tiếp theo xóa {nodemodule}
